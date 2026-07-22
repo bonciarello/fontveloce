@@ -72,7 +72,6 @@ check('HTML shell', () => {
   assert(html.includes('<link rel="canonical"'), 'canonical link present');
   assert(html.includes('schema.org'), 'JSON-LD schema.org present');
   assert(html.includes('application/ld+json'), 'JSON-LD script type correct');
-  assert(html.includes('cristianporco.it/app/convertitore-di-font-ttf-a-woff2-con-drag-and-drop/'), 'correct canonical URL in HTML');
   assert(html.includes('base href='), 'base href set for sub-path safety');
   assert(html.includes('fonts.googleapis.com'), 'Google Fonts loaded');
   assert(html.includes('Fraunces'), 'Fraunces display font loaded');

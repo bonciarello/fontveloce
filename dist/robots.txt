@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://cristianporco.it/app/convertitore-di-font-ttf-a-woff2-con-drag-and-drop/sitemap.xml
